@@ -1,7 +1,7 @@
 import {logging} from 'selenium-webdriver';
 
 export class AuthService {
-  loggedIn = false;
+  private loggedIn = false;
 
   isAuthenticated() {
     const promise = new Promise(
